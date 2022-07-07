@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --brand-green: #00856f;
+    --brand-green-ligth: #dce9e2;
+    --brand-green-ligth-02: #f7f9f9;
+    --brand-beige: #fffaf1;
+    --brand-green-hover: #00453a;
+
+    --gray-headline: #061800;
+    --gray-paragraph: #384633;
+    --white: #3E3E3E; 
+
+    /* DESKTOP FONT SIZE */
+    --font14: 1.4rem;
+    --font16: 1.6rem;
+    --font18: 1.8rem;
+    --font24: 2.4rem;
+    --font40: 4.0rem;
+    --font48: 4.8rem;
+    --font52: 5.2rem;
+
+     /* MOBILE FONT SIZE */
+     --fontmobile14: 1.4rem;
+     --fontmobile16: 1.6rem;
+     --fontmobile18: 1.8rem;
+     --fontmobile24: 2.4rem;
+     --fontmobile30: 3.0rem;
+     --fontmobile34: 3.4rem;
+     --fontmobile48: 4.8rem;
+ 
+}
+html{
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    background: #72D569;
+}
+
+.container{
+    width: 500px;
+    margin: 60px auto;
+    text-align: center;
+    border:4px solid red;
+}
+
+img{
+    width: 100%;
+}
+
+img.avatar{
+    width: 150px;
+    height:150px;
+    border: 4px solid #106408;
+    border-radius: 50%;
+    padding:4px;
+}
