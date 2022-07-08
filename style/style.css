@@ -106,6 +106,10 @@ ul li a:visited{
     color: none;
 }
 
+ul li a:active{
+    color: none;
+}
+
 footer p{
     margin-top: 24px;
     font-size: 14px;
