@@ -102,6 +102,10 @@ ul li a:hover{
     color: white;
 }
 
+ul li a:visited{
+    color: none;
+}
+
 footer p{
     margin-top: 24px;
     font-size: 14px;
