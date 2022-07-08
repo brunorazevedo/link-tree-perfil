@@ -97,7 +97,8 @@ ul li a{
     height:53px;
     transition: background 400ms;
     font-weight: 700;
-    opacity: 0.8
+    opacity: 0.8;
+    color: #0F3270;
 }
 
 ul li a:hover{
